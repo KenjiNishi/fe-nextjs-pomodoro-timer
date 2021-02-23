@@ -1,13 +1,20 @@
 import { ExperienceBar } from '../components/ExperienceBar';
+import { Profile } from '../components/Profile';
+import styles from '../styles/pages/Home.module.css'
 
 export default function Home() {
   return (
-    <div className="container">
-      <div><ExperienceBar/></div>
+    <div className={styles.container}>
+      <ExperienceBar/>
 
-      <div className="container">
-          <h1>Hello World</h1>
-      </div>
+      <section>
+        <div>
+          <Profile/>
+        </div>
+        <div>
+
+        </div>
+      </section>
     </div>
   )
 }
