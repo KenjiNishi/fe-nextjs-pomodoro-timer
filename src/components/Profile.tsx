@@ -8,7 +8,7 @@ export function Profile(){
                 <strong>UserName</strong>
                 <p>
                     <img src='icons/level.svg' alt='levelImg'/>
-                    Level X
+                    Level XXX
                 </p>
             </div>
         </div>
