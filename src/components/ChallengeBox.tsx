@@ -6,7 +6,7 @@ export function ChallengeBox(){
         <div className={styles.challengeBoxContainer}>
             {hasActiveChallenge? (
                 <div className={styles.challengeActive}>
-                    <header>Reward: ZZZ xp</header>
+                    <header>Reward: CHALLENGE_REWARD xp</header>
                     <main>
                         <img src="icons/body.svg"/>
                         <strong>CHALLENGE_NAME</strong>
